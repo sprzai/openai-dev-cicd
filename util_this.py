@@ -11,3 +11,11 @@
 
 # eliminar todos los procesos
     > docker rm -fv $(docker ps -aq)
+
+
+#####
+##   Creacion de arquitectura automatizada para el despliegue del proyecto en AWS:
+#####
+
+1.- Creacion de Cluster AWS EKS con CloudFormation
+
